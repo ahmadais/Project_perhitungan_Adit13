@@ -6,15 +6,7 @@ int main(void)
     float s, t, jari, phi=3.14, a, k, S_m,S_T;
     float luasK, luasB, luasL, LuasP, volumeL;
     do{
-        printf("\n====>Menu Perhitungan<====\n");
-        printf("\n 1.Perhitungan Luas Kubus");
-        printf("\n 2.Perhitungan Luas Bola");
-        printf("\n 3.Perhitungan Luas Limas");
-        printf("\n 4.Perhitungan Luas Primas");
-        printf("\n 5.Perhitungan Volume Limas");
-        printf("\n 6.Keluar");
-        printf("\n Masukkan Pilihan Anda: ");
-        scanf("%d",&pilihan);
+
 
         switch(pilihan){
         case 1:
